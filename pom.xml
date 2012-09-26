@@ -128,4 +128,18 @@
        </plugin>
      </plugins>
    </build>
+
+  <distributionManagement>
+    <repository>
+      <id>rabbit4420-central-releases</id>
+      <url>http://oss.rabbit4420.com/content/repositories/rabbit4420-central-releases</url>
+    </repository>
+    <snapshotRepository>
+      <id>rabbit4420-central-snapshots</id>
+      <url>http://oss.rabbit4420.com/content/repositories/rabbit4420-central-snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
+
+
+
 </project>
